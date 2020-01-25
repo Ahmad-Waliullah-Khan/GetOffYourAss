@@ -71,7 +71,7 @@
 
     function getComic() {
       var x = document.getElementById('activity');
-      x.innerHTML = 'Loading activity ... ';
+      x.innerHTML = 'Loading activity... ';
 
       $.getJSON('https://www.boredapi.com/api/activity/', function(response) {
           console.log(response);
